@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo Front End</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="sheets.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+</head>
+<body>
+<div id="title">Welcome to Your Zoo!</div>
+<div id="instructions">Click on an Animal to Delete It</div>
+
+<div id="textContainer" class="setUp">
+    <input type="text" id="animalName" class="w3-lime w3-round-large w3-hover-teal w3-animate-zoom" placeholder="Animal Name (Must Be Unique)">
+</div>
+
+<div id="animalSelectorContainer" class="setUp w3-animate-zoom">
+    <select id="animal" class="w3-lime w3-hover-teal w3-round-large w3-animate-zoom">
+        <option value="0">--Select an Animal--</option>
+        <option value="1">Tiger</option>
+        <option value="2">Bear</option>
+        <option value="3">Unicorn</option>
+        <option value="4">Giraffe</option>
+        <option value="5">Bee</option>
+</select>
+</div>
+
+<div id="animalButtonContainer" class="setUp">
+    <button id="animalCreator" class="w3-btn w3-hover-teal w3-round-large w3-lime w3-animate-zoom">Create New Animal</button>
+</div>
+
+<div id="foodContainer" class="setUp">
+    <select id="food" class="w3-lime w3-hover-teal w3-round-large w3-animate-zoom">
+        <option value="0">--Select a Food--</option>
+        <option value="meat">Meat</option>
+        <option value="fish">Fish</option>
+        <option value="marshmallows">Marshmallows</option>
+        <option value="leaves">Leaves</option>
+        <option value="pollen">Pollen</option>
+    </select>
+</div>
+
+<div id="foodButtonContainer" class="setUp">
+    <button id="feeder" class="w3-btn w3-hover-teal w3-round-large w3-lime w3-animate-zoom">Feed All Animals</button>
+</div>
+
+<div id="zooTitle">Animals in the Zoo:</div>
+<div id="animalHolder" class="w3-animate-zoom"></div>
+
+<div id="yourFeedTitle">Feed:</div>
+<div id="yourFeed"></div>
+
+<table>
+
+</table>
+
+</body>
+</html>

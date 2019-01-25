@@ -1,0 +1,72 @@
+body{
+    background-color: olive;
+}
+#title{
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    color: #25d845;
+}
+
+#instructions{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: #25d845;
+}
+
+.setUp{
+    position: relative;
+    text-align: center;
+}
+
+#animalName{
+    width:245px;
+}
+
+#animalSelectorContainer{
+    padding: 15px;
+}
+
+#textContainer{
+    padding: 15px;
+}
+
+#foodContainer{
+    padding: 15px;
+}
+
+#animalButtonContainer{
+    padding: 15px;
+}
+
+#foodButtonContainer{
+    padding: 15px;
+}
+
+#zooTitle{
+    font-size: 20px;
+    color: #25d845;
+    position: relative;
+    text-align: center;
+}
+
+#yourFeedTitle{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #25d845;
+}
+
+#yourFeed{
+    color: gold;
+    position: relative;
+    text-align: center;
+}
+
+#animalHolder{
+    position: relative;
+    text-align: center;
+    color: gold;
+}
+
